@@ -1,0 +1,49 @@
+.title {
+    background-color: #0000ff;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.main {
+    display: flex;
+    background-color: #b0e0e6;
+    height: 600px;
+}
+
+.card {
+    background-color: #ffd700;
+    width: 33%;
+    height: 95%;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card:hover {
+    background-color: #9acd32;
+    width: 650px;
+    height: 650px;
+}
+
+img {
+    margin-top: 20px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.fio {
+    font-size: 35px;
+}
+
+.email {
+    font-size: 20px;
+    color: #7b68ee;
+}
+
+.birthday, .city {
+    font-size: 25px;
+}
+
+
